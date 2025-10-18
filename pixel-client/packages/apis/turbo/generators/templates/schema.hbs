@@ -1,0 +1,21 @@
+import { apiResponseSchema } from "#schema/api-response-schema";
+import { z } from "zod";
+
+// Request
+export const {{method}}{{pascalCase name}}RequestSchemaTransformed = z
+  .object({
+    keyPayload: z.string(),
+  })
+  .transform((data) => data);
+
+// Response
+export const {{method}}{{pascalCase name}}ResponseSchemaTransformed = apiResponseSchema.extend({
+  data: z.object({
+    keyBody: z.string(),
+  }),
+}).transform((data) => data);;
+
+export const {{method}}{{pascalCase name}}Schema = {
+  response: {{method}}{{pascalCase name}}ResponseSchemaTransformed,
+  request: {{method}}{{pascalCase name}}RequestSchemaTransformed,
+};

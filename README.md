@@ -8,18 +8,27 @@ It keeps old versions and prototypes that are no longer actively maintained but 
 ## 📦 Archived Repositories
 
 ### 1. [landing-v0](https://github.com/nodup-labs/landing-v0)
+
 The first version of **Nodup's landing page**, created during the initial product launch phase.  
-After several design iterations and complete refactoring, this version was archived and replaced by the new redesigned landing site.  
+After several design iterations and complete refactoring, this version was archived and replaced by the new redesigned landing site.
 
 🔗 **Live Preview:** [archive-landing-v0.vercel.app](https://archive-landing-v0.vercel.app/)
+
+### 2. [pixel-client](https://github.com/nodup-labs/pixel-client)
+
+An advanced marketplace platform for design products, featuring a sophisticated client-side implementation.  
+This version showcases the early marketplace architecture and design system for digital product commerce.
+
+🔗 **Live Preview:** [archive-pixel-client.vercel.app](https://archive-pixel-client.vercel.app/)
 
 ---
 
 ## 🧭 Purpose
 
 This archive helps:
-- Preserve the early development history of Nodup projects.  
-- Provide references for design and structural decisions made in earlier stages.  
+
+- Preserve the early development history of Nodup projects.
+- Provide references for design and structural decisions made in earlier stages.
 - Keep the main organization repositories focused on current and active projects.
 
 ---
